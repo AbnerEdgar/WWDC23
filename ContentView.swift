@@ -29,7 +29,7 @@ struct ContentView: View {
                     .onChanged { _ in
                         if !isPressing {
                             isPressing = true
-                            speed = 20
+                            speed = 30
                             self.decrementNumber()
                         }
                     }
